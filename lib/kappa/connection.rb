@@ -133,7 +133,7 @@ module Twitch::V2
   # @private
   class Connection < Twitch::Connection
     def headers
-      { 'Accept' => 'application/vnd.twitchtv.v2+json' }
+      { 'Accept' => 'application/vnd.twitchtv.v5+json' }
     end
   end
 end
